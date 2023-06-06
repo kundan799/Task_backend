@@ -2,7 +2,7 @@ const router = require("express").Router();
 const { User } = require("../Models/user.models");
 const bcrypt = require("bcrypt");
 const Joi = require("joi");
-
+//kjxkj
 router.post("/", async (req, res) => {
 	try {
 		const { error } = validate(req.body);
